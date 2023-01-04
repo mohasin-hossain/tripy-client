@@ -12,7 +12,7 @@ const TourDetails = () => {
   const { user } = useAuth();
 
   useEffect(() => {
-    fetch(`http://localhost:4000/tours/${tourId}`)
+    fetch(`https://tripy-server.onrender.com/tours/${tourId}`)
       .then((res) => res.json())
       .then((data) => setTour(data));
   }, []);
@@ -32,7 +32,7 @@ const TourDetails = () => {
       bookingStatus: "Pending",
     };
 
-    fetch(`http://localhost:4000/booking`, {
+    fetch(`https://tripy-server.onrender.com/booking`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(bookingItem),

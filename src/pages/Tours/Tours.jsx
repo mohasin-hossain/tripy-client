@@ -17,7 +17,7 @@ const Tours = () => {
   // }, []);
 
   useEffect(() => {
-    fetch("http://localhost:4000/tours")
+    fetch("https://tripy-server.onrender.com/tours")
       .then((res) => res.json())
       .then((data) => {
         // console.log(bookings.length);

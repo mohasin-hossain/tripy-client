@@ -5,7 +5,7 @@ const AllBookings = () => {
   const [bookings, setBookings] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4000/bookings")
+    fetch("https://tripy-server.onrender.com/bookings")
       .then((res) => res.json())
       .then((data) => {
         setBookings(data);
@@ -17,7 +17,7 @@ const AllBookings = () => {
       bookingStatus: "ACCEPTED",
     };
 
-    fetch(`http://localhost:4000/booking/${id}`, {
+    fetch(`https://tripy-server.onrender.com/booking/${id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(bookingAccept),
@@ -34,7 +34,7 @@ const AllBookings = () => {
     // fetch post
     const confirm = window.confirm("Are you sure you want to delete?");
     if (confirm) {
-      fetch(`http://localhost:4000/booking/${id}`, {
+      fetch(`https://tripy-server.onrender.com/booking/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())

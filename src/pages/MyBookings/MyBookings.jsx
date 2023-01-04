@@ -7,7 +7,7 @@ const MyBookings = () => {
   const { user } = useAuth();
 
   useEffect(() => {
-    fetch("http://localhost:4000/bookings")
+    fetch("https://tripy-server.onrender.com/bookings")
       .then((res) => res.json())
       .then((data) => {
         const userSpecificBookings = data.filter(
@@ -21,7 +21,7 @@ const MyBookings = () => {
     // fetch post
     const confirm = window.confirm("Are you sure you want to delete?");
     if (confirm) {
-      fetch(`http://localhost:4000/booking/${id}`, {
+      fetch(`https://tripy-server.onrender.com/booking/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())
