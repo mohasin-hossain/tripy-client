@@ -1,0 +1,64 @@
+nav {
+    padding: 0 4rem;
+}
+
+nav img {
+    width: 55px;
+    height: 29px;
+}
+
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-section span:nth-child(2) {
+    padding: 0 .5rem;
+}
+
+.login-section span a {
+    background-color: #0DA8BC;
+    transition: all .3s;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+.login-section span a:hover {
+    background-color: #0DA8BC;
+    color: #fff;
+}
+
+.user-content {
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    border-radius: 20px;
+    background-color: rgb(232, 231, 231);
+    font-weight: 500;
+    padding: .3rem;
+    justify-content: center;
+    max-width: 400px;
+}
+
+.user-content img {
+    height: 30px;
+    width: 30px;
+    border-radius: 100vh;
+}
+
+.logout-btn {
+    outline: none;
+    border: none;
+    padding: .5rem;
+    font-weight: 500;
+    background-color: #FA7436;
+    color: #fff;
+}
+
+
+
+
+

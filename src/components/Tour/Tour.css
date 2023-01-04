@@ -1,0 +1,26 @@
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+}
+
+.location-box {
+    margin-top: -1rem;
+}
+
+.tour-image {
+    width: 100%;
+    height: 200px;
+}
+
+.location p {
+    display: block;
+    margin-top: 3rem;
+}
+
+.tour-place {
+    background-color: #FA7436;
+    color: white;
+    padding:.5rem;
+}

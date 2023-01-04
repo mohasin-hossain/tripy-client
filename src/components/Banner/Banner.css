@@ -1,0 +1,25 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.banner img {
+    max-width: 785px;
+    max-height: 585px;
+    margin-right: -4rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-text {
+        margin-top: 3rem;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+}

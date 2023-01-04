@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "tourPlace": "Hurawalhi Island",
+    "rating": 4.7,
+    "country": "Maldives",
+    "duration": "7 days Tour on 2 person",
+    "price": "650$",
+    "image": "https://i.ibb.co/4PsxyWg/hurawalhi-island.png"
+  },
+  {
+    "id": 2,
+    "tourPlace": "Bali Province",
+    "rating": 4.1,
+    "country": "Indonesia",
+    "duration": "4 days Tour on 2 person",
+    "price": "450$",
+    "image": "https://i.ibb.co/4PsxyWg/hurawalhi-island.png"
+  },
+  {
+    "id": 3,
+    "tourPlace": "Barcelona city beach",
+    "rating": 4.5,
+    "country": "Spain",
+    "duration": "4 days Tour on 4 person",
+    "price": "620$",
+    "image": "https://i.ibb.co/4PsxyWg/hurawalhi-island.png"
+  },
+  {
+    "id": 4,
+    "tourPlace": "St. John's",
+    "rating": 4.4,
+    "country": "Canada",
+    "duration": "7 days Tour on 2 person",
+    "price": "750$",
+    "image": "https://i.ibb.co/4PsxyWg/hurawalhi-island.png"
+  },
+  {
+    "id": 5,
+    "tourPlace": "Machu Pichu",
+    "rating": 4.8,
+    "country": "Maldives",
+    "duration": "4 days Tour on 4 person",
+    "price": "850$",
+    "image": "https://i.ibb.co/4PsxyWg/hurawalhi-island.png"
+  },
+  {
+    "id": 6,
+    "tourPlace": "Bora Bora Island",
+    "rating": 4.7,
+    "country": "France",
+    "duration": "7 days Tour on 2 person",
+    "price": "550$",
+    "image": "https://i.ibb.co/4PsxyWg/hurawalhi-island.png"
+  },
+  {
+    "id": 7,
+    "tourPlace": "Sydney Opera House",
+    "rating": 4.4,
+    "country": "Australia",
+    "duration": "3 days Tour on 2 person",
+    "price": "350$",
+    "image": "https://i.ibb.co/4PsxyWg/hurawalhi-island.png"
+  },
+  {
+    "id": 8,
+    "tourPlace": "Bradenburg Gate",
+    "rating": 4.9,
+    "country": "Germany",
+    "duration": "2 days Tour on 2 person",
+    "price": "450$",
+    "image": "https://i.ibb.co/4PsxyWg/hurawalhi-island.png"
+  }
+]

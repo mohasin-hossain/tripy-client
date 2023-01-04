@@ -1,0 +1,18 @@
+.process-overview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.process-overview div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0663c31;
+    padding: 1rem;
+    border-radius: 2rem;
+
+}
