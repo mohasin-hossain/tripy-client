@@ -61,7 +61,7 @@ const Header = () => {
                     Logout
                   </button>
                 ) : (
-                  <Link to="/login">Login</Link>
+                  <Link className="btn btn-primary" to="/login">Login</Link>
                 )}
               </span>
             </div>
